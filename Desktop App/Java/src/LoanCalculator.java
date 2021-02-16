@@ -1,7 +1,5 @@
 /**
  * @author Ashish Singh
- * EN.605.201.83.SP20 Intro to Programming Using Java
- * Mini Project 3
  * LoanCalculator.java
  * Created on Apr 24, 2020
  */
