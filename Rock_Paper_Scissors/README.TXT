@@ -3,7 +3,7 @@
 
 
 Approach: 
---> For the first part of the assignment -> rps_ifelse.py, I created a list with the game's gestures, i.e., rock, paper, and scissors. 
+--> For the first part (rps_ifelse.py), I created a list with the game's gestures, i.e., rock, paper, and scissors. 
 I then took a tiered approach to decide the winner of the game. Even though the number of iteration (7) is known, 
 I used a "while" loop to loop the program seven times and used a counter to exit the loop once the counter reached 7.
 
@@ -26,7 +26,7 @@ The else statement is configured in such a way that only the response "paper", "
 
 At the end of the game, a printout is displayed to the user, showing both the users' wins, draws, and invalid gestures entered in the program.
 
---> For the second part of the assignment -> rps_modular.py, I used a set to store the gestures and their numerical representation. 
+--> For the second part (rps_modular.py), I used a set to store the gestures and their numerical representation. 
 Scissors trumps paper, and paper trumps rock. Hence, I assigned 1 to rock, 2 to paper, and  3 to scissors.
 
 Unlike the rps_ifelse.py with the if/elif/else statement, using modulo arithmetic to decide a winner condensed the program. 
