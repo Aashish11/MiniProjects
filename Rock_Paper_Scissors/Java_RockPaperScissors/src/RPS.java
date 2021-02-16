@@ -5,6 +5,11 @@
 
 import java.util.Scanner;
 
+
+/**
+ * This program calculates the wins, draws, and invalid games
+ * between two players of rock, paper, and scissors.
+ */
 public class RPS
 {
 
