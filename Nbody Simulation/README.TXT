@@ -1,10 +1,4 @@
-Name: 
-Ashish Singh, asingh41
 
-Module Info:
-Module 4, Physics Calculation or nbody simulation.
-
-Approach:
 In the simulation, as the planets revolve around the sun, the x position, y position, x velocity, 
 and y velocity, radius between the planets and the sun, Force, and acceleration are calculated into 
 small code snippets, making it easier to debug and check the appropriate outcome.
