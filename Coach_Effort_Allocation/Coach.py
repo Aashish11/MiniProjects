@@ -82,8 +82,8 @@ class Coach():
 if __name__ == '__main__':
     coach1 = Coach('Ashish', .50, .50, 0)   
     coach1.set_temp_schedule('2021-10-15', 1, 0, 0)
-    coach1.set_temp_schedule('2021-10-20', .25, .25, .5)
-    coach1.set_temp_schedule('2021-10-25', .50, .25, .25)
+    #coach1.set_temp_schedule('2021-10-20', .25, .25, .5)
+    #coach1.set_temp_schedule('2021-10-25', .50, .25, .25)
     coach1.calc_report('2021-10-14', '2021-10-15')
         
     
