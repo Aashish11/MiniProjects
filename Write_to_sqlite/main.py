@@ -29,7 +29,7 @@ def main():
     csv_files_list = os.listdir(csv_dir) 
     # Calls the function from db_utils to establish a connection with the database
     # (create a new connection object).
-    db_dir = "../Database/ibotta.db"  
+    db_dir = "../Database/datawarehouse.db"  
     conn = db.create_connection(db_dir)
     
     # Iterates through the files in the csv file list.
