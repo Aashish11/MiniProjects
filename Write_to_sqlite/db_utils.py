@@ -15,7 +15,7 @@ from sqlite3 import dbapi2 as sqlite
 import csv
 
 # ------------------------------------------------------------------------------------------
-# To do anything with ibotta.db, we need to first, establish a connection with the database.
+# To do anything we need to first, establish a connection with the database.
 # 
 # The create_connection function/method uses the sqlite3 library to create a sqlite 
 # connection object (connection class) that represents the database.
@@ -26,7 +26,7 @@ import csv
 def create_connection(db_file: str) -> object:
     '''
     @param db_file
-    A variable of string type/object that holds the ibotta.db file name. 
+    A variable of string type/object that holds the file name. 
     
     @return conn
     Returns the sqlite connection object.
